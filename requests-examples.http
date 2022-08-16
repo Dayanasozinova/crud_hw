@@ -46,7 +46,7 @@ POST {{baseUrl}}/stocks/
 Content-Type: application/json
 
 {
-  "address": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "address": "motheer",
   "positions": [
     {
       "product": 2,
@@ -64,7 +64,7 @@ Content-Type: application/json
 ###
 
 # обновляем записи на складе
-PATCH {{baseUrl}}/stocks/1/
+PATCH {{baseUrl}}/stocks/47/
 Content-Type: application/json
 
 {
